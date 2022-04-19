@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .row,.container {
+    max-width: 850px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .col {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .col-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .col-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  .col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  .col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .container-new {
+    background-color: #81af53;
+    padding: 30px 60px;
+    margin-top: 20px;
+  }
+  .news-title-1 {
+    font-size: 20px;
+    position: relative;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  img {
+    width: 100%;
+  }
+  .news-desc {
+    color: #fff;
+    font-size: 16px;
+  }
+  .img-hinhanh img {
+    border-radius: 10px;
+    border: 1px dashed #49a333;
+    height: 250px;
+  }
+  .du_an_title a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #49a333;
+  }
+  .du_an_title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .content_duan {
+    padding: 10px 0;
+  }
+  .du_an_desc p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    line-height: 1.2em;
+    text-align: justify;
+  }
+  
+  .news-desc p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    line-height: 1.2em;
+    text-align: justify;
+  }
+  .container-dangky {
+    text-align: center;
+    background-color:#DCE085;
+    color: #49a333;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0;
+  }
+  .header {
+    background-image: url(../images/head-background.jpg);
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    overflow: hidden;
+    will-change: transform, opacity, filter;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+  .header .logo {
+    width: 200px;
+  }
+  .button-contact {
+    background-color: #49a333;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+  }
+  .header_top {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+  }
+  .form_submit {
+    text-align: center;
+    background-color: #678B37;
+    border: 4px solid #c5d301;
+    padding: 30px 30px;
+    color: #fff;
+  }
+  .form_header {
+    padding: 30px 0;
+  }
+  .form_submit input {
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+    border: none;
+    background: unset;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+  .form_submit h2 {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 10px;
+  }
+  .form_submit p {
+    margin-bottom: 5px;
+    font-style: italic;
+  }
+  .form_submit input::placeholder {
+    color: #fff;
+  }
+  .resgietr {
+    background-color: #c5d301;
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+  }
+  .button-left {
+    text-align: end;
+  }
+  .form-footer{
+    padding: 20px 0;
+  }
+  .form-footer input{
+    width: 100%;
+    padding: 10px ;
+  }
+  .form-footer .col-6{
+    margin-bottom: 10px;
+  }
+  .form-footer .button-footer{
+    background-color: #49A333;
+    color: #fff;
+    padding: 9px;
+   
+    width: 100%;
+  }
+  .form-footer .button-footer a{
+    color: #fff; text-decoration: none;
+  }
+  .hr-trang{
+    background-color: #fff;
+    margin-bottom: 15px;
+    margin-top: -18px;;
+  }
